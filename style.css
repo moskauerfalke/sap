@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'SegoeUIRegular';
+    src: url('fonts/segoeui.eot');
+    src: url('fonts/segoeui.eot') format('embedded-opentype'), url('fonts/segoeui.woff') format('woff'), url('fonts/segoeui.ttf') format('truetype'), url('fonts/segoeui.svg#SegoeUIRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url('fonts/segoeuilight.eot');
+    src: url('fonts/segoeuilight.eot') format('embedded-opentype'), url('fonts/segoeuilight.woff') format('woff'), url('fonts/segoeuilight.ttf') format('truetype'), url('fonts/segoeuilight.svg#segoeuilightr') format('svg');
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "SegoeUILight", Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: #B33244;
+	padding: 3%;
+}
+
+section {
+	width: 40%;
+    height: 50%;
+	float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.section__education {
+	background-image: url('images/education.jpg');
+}
+
+.section__experience {
+	background-image: url('images/work.jpg');
+}
+
+.section__skills {
+	background-image: url('images/professional.jpg');
+}
+
+.section__knowledge {
+	background-image: url('images/knowledge.jpg');
+}
